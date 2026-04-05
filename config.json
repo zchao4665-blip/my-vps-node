@@ -2,19 +2,8 @@
     "inbounds": [{
         "port": 3398,
         "protocol": "vmess",
-        "settings": {
-            "clients": [{
-                "id": "550e8400-e29b-41d4-a716-446655440000" 
-            }]
-        },
-        "streamSettings": {
-            "network": "ws",
-            "wsSettings": {
-                "path": "/vps"
-            }
-        }
+        "settings": {"clients": [{"id": "28169994-325b-4395-885f-00438676a666"}]},
+        "streamSettings": {"network": "ws", "wsSettings": {"path": "/cloud"}}
     }],
-    "outbounds": [{
-        "protocol": "freedom"
-    }]
+    "outbounds": [{"protocol": "freedom"}]
 }
